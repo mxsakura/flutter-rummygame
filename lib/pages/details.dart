@@ -6,7 +6,7 @@ import 'package:flutter/rendering.dart';
 import 'package:flutter_spinkit/flutter_spinkit.dart';
 import 'package:url_launcher/url_launcher.dart';
 import 'package:video_player/video_player.dart';
-import 'package:flutter_app/widget/previewimg.dart';
+import 'package:flutter_rummygame/widget/previewimg.dart';
 
 class AppDetails extends StatefulWidget {
   Map game;
@@ -162,7 +162,6 @@ class _AppDetails extends State<AppDetails> {
                             placeholder: (context, url) => SpinKitFadingCircle(
                               color: Color.fromRGBO(255, 127, 0, 1.0),
                               size: 30.0,
-
                             ),
                             fit: BoxFit.fill,
                           ),

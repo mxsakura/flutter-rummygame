@@ -1,4 +1,4 @@
-# flutter_app
+# flutter_rummygame
 
 A new Flutter application.
 

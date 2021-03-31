@@ -8,7 +8,7 @@ import 'package:flutter_spinkit/flutter_spinkit.dart';
 
 import 'dart:convert';
 import 'package:http/http.dart' as http;
-import 'package:flutter_app/pages/details.dart';
+import 'package:flutter_rummygame/pages/details.dart';
 
 void main() {
   runApp(MyApp());
@@ -92,7 +92,7 @@ class RequestSwiper extends State<Home_page> {
             child: new Swiper(
               itemBuilder: (BuildContext context, int index) {
                 return CachedNetworkImage(
-                  imageUrl:  BaseURL + banners[index]["image"],
+                  imageUrl: BaseURL + banners[index]["image"],
                   placeholder: (context, url) => SpinKitFadingCircle(
                     color: Color.fromRGBO(255, 127, 0, 1.0),
                     size: 30.0,
