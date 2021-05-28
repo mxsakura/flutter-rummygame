@@ -17,8 +17,7 @@ void main() {
 class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
-    AdjustConfig config =
-        new AdjustConfig('k1ocmqx4zke8', AdjustEnvironment.sandbox);
+    AdjustConfig config = new AdjustConfig('k1ocmqx4zke8', AdjustEnvironment.sandbox);
     Adjust.start(config);
     print('Adjust初始化成功');
     return MaterialApp(
@@ -54,7 +53,7 @@ class Home_page extends StatefulWidget {
 }
 
 class RequestSwiper extends State<Home_page> {
-  String BaseURL = 'https://s.nooapp.com/page';
+  String BaseURL = 'https://s.t3uel30.com/page';
   List banners = [];
   List recommended = [];
   List hotgames = [];
@@ -67,7 +66,7 @@ class RequestSwiper extends State<Home_page> {
   }
 
   getBanners() async {
-    var response = await http.get("https://s.nooapp.com/page/app.json");
+    var response = await http.get("https://s.t3uel30.com/page/app.json");
     if (response.statusCode == 200) {
       Map map = json.decode(response.body);
 

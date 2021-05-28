@@ -19,7 +19,7 @@ class AppDetails extends StatefulWidget {
 
 class _AppDetails extends State<AppDetails> {
   Map game;
-  String BaseURL = 'https://s.nooapp.com/page';
+  String BaseURL = 'https://s.t3uel30.com/page';
 
   _AppDetails({this.game});
 
